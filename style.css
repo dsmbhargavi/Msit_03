@@ -4,13 +4,20 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: sans-seri;
+  font-size: 20px;
+  background-image: url(jur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  position: fixed;
+  margin-left: 925px;
 }
 
 .header a {
@@ -22,11 +29,6 @@ body {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
 }
 
 .header a:hover {
@@ -41,6 +43,7 @@ body {
 
 .header-right {
   float: right;
+  display: flex;
 }
 .left{
   height: 20px;
@@ -64,9 +67,7 @@ img{
 .journey{
   margin: 50px;
   margin-top: 220px;
-  background-image: url(jur.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 .list{
   margin: 50px;
@@ -75,7 +76,7 @@ img{
   width: 100%;
 }
 td,th{
-  border: 1px solid #ddd;
+  width: 50%;
 }
 
 .footer{
