@@ -16,8 +16,6 @@ body {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
-  position: fixed;
-  margin-left: 925px;
 }
 
 .header a {
@@ -43,7 +41,6 @@ body {
 
 .header-right {
   float: right;
-  display: flex;
 }
 .left{
   height: 20px;
@@ -66,7 +63,7 @@ img{
 }
 .journey{
   margin: 50px;
-  margin-top: 220px;
+  margin-top: 100px;
 
 }
 .list{
@@ -74,6 +71,9 @@ img{
 }
 #course{
   width: 100%;
+}
+th{
+  text-align: left;
 }
 td,th{
   width: 50%;
