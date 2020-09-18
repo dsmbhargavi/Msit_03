@@ -58,6 +58,9 @@ img{
   height: 300px;
   margin: 50px;
 }
+h1{
+  text-align: center;
+}
 .image{
   border-radius: 50%;
 }
@@ -81,6 +84,9 @@ td,th{
 
 .footer{
   background: lightblue;
+}
+.form{
+  text-align: center;
 }
 
 
